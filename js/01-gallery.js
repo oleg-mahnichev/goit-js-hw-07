@@ -37,7 +37,7 @@ function openModal(event) {
     });
 
     instance.show();
-
+    // Додавання прослуховувача на клік по ESC
     document.addEventListener('keydown', handleKeyPress);
 
     function handleKeyPress(event) {
